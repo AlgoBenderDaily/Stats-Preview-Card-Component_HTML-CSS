@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nkosinathi Dhanda" />
+    <meta name="description" content="Stats Preview Card Component" />
+    <title>Stats Preview Card Component</title>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <main class="main__card">
+      <section class="main__card__hero">
+        <div class="hero__overlay"></div>
+
+        <figure class="hero__image mobile">
+          <img
+            src="./images/image-header-mobile.jpg"
+            alt="hero mobile"
+            width="654"
+            height="840"
+            class="responsive-image mobile"
+          />
+          <figcaption class="offscreen">hero mobile</figcaption>
+        </figure>
+
+        <figure class="hero__image desktop">
+          <img
+            src="./images/image-header-desktop.jpg"
+            alt="hero mobile"
+            width="540"
+            height="446"
+            class="responsive-image desktop"
+          />
+          <figcaption class="offscreen">hero desktop</figcaption>
+        </figure>
+      </section>
+
+      <section class="main__card__details">
+        <h1 class="details__title center">
+          Get <span>insights</span> that help your business grow.
+        </h1>
+
+        <p class="details__subtext center">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <section class="details__stats">
+          <div class="center">
+            <p class="stats__value">10k+</p>
+            <p class="stats__label">companies</p>
+          </div>
+
+          <div class="center">
+            <p class="stats__value">314</p>
+            <p class="stats__label">templates</p>
+          </div>
+
+          <div class="center">
+            <p class="stats__value">12M+</p>
+            <p class="stats__label">queries</p>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
